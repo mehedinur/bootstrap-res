@@ -9,6 +9,7 @@
     <!-- bootstrap style -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- stylesheet -->
+    </style>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -25,10 +26,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item mx-3">
-                            <a class="nav-link active" aria-current="page" href="#">Features</a>
+                            <a class="nav-link active" aria-current="page" href="#feature">Features</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="#">Download</a>
+                            <a class="nav-link" href="#download">Download</a>
                         </li>
                         <li class="nav-item mx-3">
                             <a class="nav-link btn rounded-pill background-gradient text-white px-3" href="#">
@@ -44,7 +45,7 @@
         </nav>
     </header>
     <main>
-        <section class="banner">
+        <section class="banner banner-md-sm">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -65,13 +66,13 @@
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex justify-content-center align-items-center py-3">
-                            <img src="./img/banner.png" alt="">
+                            <img class="img-fluid" src="./img/banner.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class=" mb-3">
+        <section class="mb-3">
             <div class="background-gradient d-flex flex-column justify-content-center align-items-center">
                 <h1 class="text-center w-50 text-whit py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quos
@@ -83,11 +84,11 @@
         <section id="feature">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
-                        <img src="./img/phone.png" alt="">
+                    <div class="col-lg-5 col-md-12 text-center py-md-3 mb-sm-4">
+                        <img class="img-fluid" src="./img/phone.png" alt="">
                     </div>
-                    <div class="col-md-7">
-                        <div class="row gy-4">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="row gy-4 mb-sm-4">
                             <div class="col-md-6">
                                 <div
                                     class="d-flex border p-3 flex-column justify-content-center align-items-center gy-3">
@@ -175,20 +176,40 @@
                     </div>
                     <div class="col-md-6">
                         <div class="py-5">
-                            <img class="rounded-circle" src="./img/web-design.png" alt="">
+                            <img class="rounded-circle img-fluid" src="./img/web-design.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
         <section class="stop-writting">
-            <div class="container d-flex flex-column justify-content-center align-items-center h-100">
-                <h1 class="disaplay-3 text-white">Stop Writting, stop building</h1>
+
+
+            <div class="container d-flex flex-column justify-content-center align-items-start h-100">
+                <h1 class="disaplay-3 text-white">Stop Waiting, Start building</h1>
                 <a href="" class="btn btn-outline-light rounded-pill px-4 py-3">Download for free</a>
+            </div>
+
+
+        </section>
+        <section>
+            <div id="download" class="background-gradient py-5">
+                <div class=" d-flex flex-column justify-content-center align-items-center py-5">
+                    <h1 class="text-white">Get the app Now</h1>
+                    <div class="mx-4">
+                        <a href="">
+                            <img src="./img/google-play.png" alt="">
+                        </a>
+                        <a href=""><img src="./img/app-store.png" alt=""></a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+
+    <footer class="text-center bg-dark py-3">
+        <small class="text-white">&copy; Your Website 2021. All Rights Reserved. </small>
+    </footer>
 
 
 
